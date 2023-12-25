@@ -1,0 +1,23 @@
+@use 'variables';
+
+.header{
+    background-color: variables.$bgHeader;
+    backdrop-filter: blur(20px);
+    text-transform: uppercase;
+
+    .navbar-toggler{
+        background-color: variables.$primary;
+    }
+
+    .nav-item{
+        .nav-link{
+            color: variables.$textColor;
+            font-weight: bold;
+
+            &.active{
+                color: variables.$primary;
+            }
+        }
+    }
+
+}

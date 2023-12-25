@@ -1,0 +1,27 @@
+@use 'variables';
+
+.btn-primary{
+    background-color: variables.$primary;
+    border-color: variables.$primary;
+    text-transform: uppercase;
+    font-weight: bold;
+
+    &:hover{
+        background-color: variables.$primary;
+        border-color: variables.$primary;
+        filter: brightness(90%);
+    }
+}
+
+.btn-secondary{
+    background-color: variables.$secondary;
+    border-color: variables.$secondary;
+    text-transform: uppercase;
+    font-weight: bold;
+
+    &:hover{
+        background-color: variables.$secondary;
+        border-color: variables.$secondary;
+        filter: brightness(90%);
+    }
+}

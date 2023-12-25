@@ -1,0 +1,22 @@
+.cast{
+    text-align: center;
+    &-list{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+
+        &-item{
+            img{
+                width: 120px;
+                margin-bottom: 16px;
+                border-radius: 100%;
+            }
+        }
+
+        @media(max-width: 767px){
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+}
